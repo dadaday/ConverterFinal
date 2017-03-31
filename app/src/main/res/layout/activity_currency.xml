@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_currency"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".CurrencyActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstCurrencyEditText"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/enter_first_number"
+        android:padding="15dp"/>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstCurrencySpinner">
+    </Spinner>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstCustomConversionRatioEditText"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/hintForFirstCustomRatio"
+        android:padding="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondCurrencyEditText"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/enter_second_number"
+        android:padding="15dp"/>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondCurrencySpinner">
+    </Spinner>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondCustomConversionRatioEditText"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="@string/hintForSecondCustomRatio"
+        android:padding="15dp"/>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FinalConverter</string>
+    <string name="enter_first_number">Enter first number</string>
+    <string name="enter_second_number">Enter second number</string>
+    <string name="hintForFirstCustomRatio">Enter first custom ratio</string>
+    <string name="hintForSecondCustomRatio">Enter first custom ratio</string>
+    <string-array name="lenghtUnits">
+        <item>millimeter</item>
+        <item>centimeter</item>
+        <item>meter</item>
+        <item>kilometer</item>
+        <item>mile</item>
+    </string-array>
+
+    <string-array name="massUnits">
+        <item>milligram</item>
+        <item>gram</item>
+        <item>kilogram</item>
+    </string-array>
+
+    <string-array name="currencies">
+        <item>US Dollar</item>
+        <item>Ruble</item>
+        <item>Euro</item>
+    </string-array>
+</resources>
